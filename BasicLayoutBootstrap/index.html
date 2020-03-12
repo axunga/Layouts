@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-widht,initial-scale=1.0"/>
+        <meta http-equiv="X-UA-compatible" content="ie=edge"/>
+        <title>JsonTryOut</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="row" id="preNav">
+                    <div class="col-sm-4 col-md-6 col-lg-6">
+                        <img src="http://placehold.it/100x50?text=Industria">
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-3 my-auto text-justify">
+                        Lorem ipsum dolor sit adipisicing elit.
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-3 my-auto text-left">
+                        <span class="red">01-800-telefono</span>
+                    </div>
+                </div> 
+            </div>
+            <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"  aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="#">JsonTryOut</a>
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                        <a class="nav-link " href="#">Link1</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link2</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link3</a>
+                      </li>
+                    </ul>
+                    <form class="form-inline mr-auto">
+                      <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </header>
+        <div class="hero">
+            <h1>Titulo mamalon</h1>
+        </div>
+        <div class="menu prueba">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="panel-heading text-center"><span class="black">Panel Uno</span></div>
+                        <div class="panel-body text-center">
+                            <img src="http://placehold.it/150x250?text=Imagen">
+                        </div>  
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="panel-heading text-center"><span class="black">Panel Dos</span></div>
+                        <div class="panel-body text-center">
+                            <img src="http://placehold.it/250x250?text=Imagen">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="panel-heading text-center"><span class="black">Panel Tres</span></div>
+                        <div class="panel-body text-center">
+                            <img src="http://placehold.it/150x250?text=Imagen">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="panel-heading text-center"><span class="black">Panel Cuatro</span></div>
+                        <div class="panel-body text-center">
+                            <img src="http://placehold.it/150x250?text=Imagen">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="jsonBack" class="container-fluid">
+            <div id="jsonForm" class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <form action="createJson">
+                            <div class="form-group">
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" id="nombre">
+                            </div>
+                            <div class="form-group">
+                                <label for="appellido">Apellido:</label>
+                                <input type="text" id="apellido">
+                            </div class="form-group">
+                                <input class="btn btn-dark" type="button" id="btnSend" value="Send Json">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container-fluid footerText">
+                <div class="container text-center text-md-left">
+                    <div class="row">
+                        <div class="col-md-6 mt-md-0 mt-3">
+                            <h5 class="text-uppercase">Footer text 1</h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil
+                                repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae
+                                harum esse fugiat. Itaque, culpa?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Copyright -->
+            <div class="footer-copyright text-center">© 2020 Copyright</div>
+        </footer>
+
+        <!--
+            <div class="container-fluid">
+            <h2 class="b" id="b1">Formularios  JS</h2>
+            <form action="" method="get">
+            <p class="normalP">
+                <label for="txtMensaje">Introduce tu mensaje:</label> 
+                <input type="text" id="txtMensaje" name="txtMensaje">
+                <p class="inLine"> </p>
+            </p>
+            <p class="normalP">
+                <input class="btn btn-primary" type="button" value="submit" id="button" name="button">
+                <input class="btn btn-primary" type="button" value="cambiar color" id="button2" name="button">
+            </p>
+            </form>
+        </div>
+        -->
+        
+        <script src="script/jquery-3.4.1.min.js"></script>
+        <script src="script/popper.min.js"></script>
+        <script src="script/bootstrap.min.js"></script>
+        <script src="script/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,98 @@
+body{
+    background: whitesmoke;
+}
+div#preNav{
+    font-size: smaller;
+}
+h1{
+    text-align: center;
+}
+div.hero{
+    background-image: url(../images/fondo.jpg);
+    width: 100%;
+    padding-top: 12rem;
+    padding-bottom: 15rem;
+    
+}
+div#portada{
+    background: rgb(103, 103, 245);
+    text-align: center;
+    padding: 4rem;
+    margin: auto;
+}
+div.prueba {
+    margin-top: -100px;
+    padding-bottom: 100px;
+}
+div.panel-heading{
+    padding: .5rem;
+}
+span.red{
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+span.black{
+    color:#000000;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+div#jsonBack{
+    background-color: rgba(129, 129, 216, 0.534);
+}
+div#jsonForm{
+   /* background: scroll;*/
+    text-align: left;
+    padding: 2rem;
+    margin: auto;
+}
+.footerText{
+    background-color: rgb(184, 154, 114);
+    padding: 2rem;
+}
+.footer-copyright{
+    background-color: rgb(173, 137, 90);
+}
+
+/*
+h2#b1
+{
+    background: linear-gradient(to right, rgb(243, 225, 122),rgb(241, 88, 88));
+    margin: 1px solid black;
+    box-shadow: 4px 4px gray;
+    padding: 1em;
+    border: 1px solid black;
+}
+h2#b2
+{
+    background: linear-gradient(to right, rgb(243, 225, 122),rgb(137, 204, 145)));
+    margin: 1px solid black;
+    box-shadow: 4px 4px gray;
+    padding: 1em;
+    border: 1px solid black;
+}
+p.normalP{
+    border: 1px solid cadetblue;
+    box-shadow: 4px 4px gray;
+    text-align: justify;
+}
+img
+{
+    height: auto;
+    width: auto;
+    box-shadow: 4px 4px gray;
+    border: 1em solid black;
+}
+#txtMensaje
+{
+    border: hidden;
+    background: rgba(56, 56, 56, 0.082);
+    width: auto;
+}
+p.inLine
+{
+    display: inline;
+}
+*/
